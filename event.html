@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book  event page</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+          <a href="index.html">
+            <h2>Octave <span class="span__blue"> A</span>quarium</h2>
+          </a>
+          <ul class="nav__menu">
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+        <div>
+          <div class="welcome-event"></div>
+          <main>
+            <section id="events">
+                <h1 class="section-title">Events</h1>
+                <div class="events-container"></div>
+            </section>
+            <section id="add-event">
+                <form class="form">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="number" id="attendee" placeholder="Attendees" required>
+                    <input type="date" id="attendee" placeholder="Attendees" required>
+                    <textarea id="description" cols="30" rows="10" placeholder="Description..." required></textarea>
+                    <select id="status__two">
+                        <option value="0">only</option>
+                        <option value="1">school excretion</option>
+                        <option value="3">date</option>
+                        <option value="4">other</option>
+                    </select>
+                    <button class="btn btn-primary">Book</button>
+                </form>
+            </section>
+        </main>
+        </div>
+      <footer class="footer">
+        <div class="footer_one">
+         <h3>Welcome to Octave <span class="">A</span>quarium</h3>
+        </div>
+        <div class="copywrite">
+         <p class="footer__para">copywrite@Octave Aquarium, All right reserved</p>
+        </div>
+      </footer>
+      <script src="event.js"></script>
+</body>
+</html>
